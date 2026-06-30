@@ -1,5 +1,6 @@
 import { GraduationCap, Lightbulb, TrendingUp, Grid, BookOpen, BarChart3, Zap, Mail, Lock, Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const features = [
     {
@@ -191,9 +192,9 @@ const Login = () => {
 
                         <p className="text-center text-sm text-gray-500">
                             Don't have an account?{" "}
-                            <a href="#" className="font-medium text-blue-600 hover:underline">
-                                Create one
-                            </a>
+                            <Link to="/register" className="text-blue-600 font-semibold hover:underline">
+                                Sign up
+                            </Link>
                         </p>
                     </div>
                 </div>
