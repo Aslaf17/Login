@@ -184,14 +184,7 @@ const Register = () => {
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4 py-10">
-            {/* <div className="hidden max-w-xl h-140 rounded-l-xl md:flex flex-col justify-between flex-1 p-10 relative overflow-hidden"
-                style={{
-                    background: "linear-gradient(135deg, #1a1a6e 0%, #2d2d9e 40%, #1a4fa8 70%, #0d3b7a 100%)",
-                }}>
-                <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-white/5 pointer-events-none" />
-                <div className="absolute -bottom-16 -left-16 w-52 h-52 rounded-full bg-white/4 pointer-events-none" />
-
-            </div> */}
+        
             <div className="w-full max-w-md bg-white rounded-r-xl shadow-lg p-8">
                 <h1 className="text-2xl font-bold text-gray-900">Create your account</h1>
                 <p className="mt-1 mb-6 text-sm text-gray-500">Fill in your details to get started.</p>
