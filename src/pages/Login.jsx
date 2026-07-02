@@ -170,9 +170,10 @@ const Login = () => {
                                     />
                                     <span className="text-sm text-gray-500">Remember me</span>
                                 </label>
-                                <a href="#" className="text-sm font-medium text-blue-600 hover:underline">
-                                    Forgot password?
-                                </a>
+                                
+                                <Link to="/forgotpassword" className="text-sm font-medium text-blue-600 hover:underline">
+                                    Forgot password
+                                </Link>
                             </div>
 
                             <button
