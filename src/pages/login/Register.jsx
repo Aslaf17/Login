@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { Field } from "../components/Field.jsx";
+import { Field } from "../../components/Field.jsx";
 
 const initialForm = {
     firstName: "",
