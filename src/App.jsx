@@ -1,9 +1,11 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import Login from './pages/login'
-import Register from './pages/Register'
-import ForgotPassword from './pages/ForgotPassword'
-import ResetPassword from './pages/ResetPassword'
+
+import DigitalClassroom from './pages/classroom/DigitalClassroom'
+import Login from './pages/login/Login'
+import Register from './pages/login/Register'
+import ForgotPassword from './pages/login/ForgotPassword'
+import ResetPassword from './pages/login/ResetPassword'
 
 function App() {
   
@@ -16,6 +18,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="/reset-password" element={<ResetPassword />} />
+          <Route path="/classroom" element={<DigitalClassroom />} />
         </Routes>
       </BrowserRouter>
     </>
