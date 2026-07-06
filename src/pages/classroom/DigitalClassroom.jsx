@@ -18,7 +18,7 @@ export default function DigitalClassroom() {
 
         <aside
             className="w-[25%] flex min-w-80 bg-white border border-gray-200 rounded-2xl
-                overflow-hidden flex flex-col shadow-2xl
+                overflow-hidden flex-col shadow-2xl
                 max-[900px]:w-full max-[900px]:flex-[1_1_auto] max-[900px]:min-h-90"
         >
             <ClassroomChat />
