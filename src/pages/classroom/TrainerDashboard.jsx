@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CreateSessionModal from "../../components/CreateSessionModal";
 import { Users, Layers, CalendarClock, TrendingUp } from "lucide-react";
 
