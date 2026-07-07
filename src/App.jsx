@@ -7,6 +7,7 @@ import Register from './pages/login/Register'
 import ForgotPassword from './pages/login/ForgotPassword'
 import ResetPassword from './pages/login/ResetPassword'
 import TrainerDashboard from './pages/classroom/TrainerDashboard'
+import RecordingDashboard from './pages/recordings/RecordingDashboard'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
           <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="/classroom" element={<DigitalClassroom />} />
           <Route path="/trainer" element={<TrainerDashboard />} />
+          <Route path="/record" element={<RecordingDashboard />} />
         </Routes>
       </BrowserRouter>
     </>
