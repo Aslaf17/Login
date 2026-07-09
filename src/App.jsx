@@ -9,6 +9,7 @@ import ResetPassword from './pages/login/ResetPassword'
 import TrainerDashboard from './pages/classroom/TrainerDashboard'
 import RecordingDashboard from './pages/recordings/RecordingDashboard'
 import SessionRecordings from './pages/recordings/SessionRecordings'
+import SessionManagement from './pages/session/SessionManagement'
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
           <Route path="/trainer" element={<TrainerDashboard />} />
           <Route path="/record" element={<RecordingDashboard />} />
           <Route path="/sessionrecordings" element={<SessionRecordings />} />
+          <Route path="/session-management" element={<SessionManagement />} />
         </Routes>
       </BrowserRouter>
     </>
